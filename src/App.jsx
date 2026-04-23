@@ -65,7 +65,7 @@ export default function DomePortfolioSite() {
       href: "#experience",
     },
     {
-      name: "ClientPulse",
+      name: "CoachRetain",
       problem:
         "Personal trainers and online coaches often lose clients because renewals, check-ins, and follow-ups are managed in a fragmented and disorganized way.",
       solution:
