@@ -1,3 +1,14 @@
+import {
+  Award,
+  BriefcaseBusiness,
+  Code2,
+  FolderKanban,
+  GraduationCap,
+  Mail,
+  User,
+  Wrench,
+} from "lucide-react";
+
 export default function DomePortfolioSite() {
   const nav = [
     { label: "About", href: "#about" },
@@ -19,7 +30,7 @@ export default function DomePortfolioSite() {
     {
       title: "Project Building",
       description:
-        "I do not just study technology - I use it to shape concrete projects. I like turning ideas into structured roadmaps, prototypes, and working systems with a clear direction.",
+        "I do not just study technology, I use it to shape concrete projects. I like turning ideas into structured roadmaps, prototypes, and working systems with a clear direction.",
     },
     {
       title: "Technical & Product Thinking",
@@ -35,11 +46,11 @@ export default function DomePortfolioSite() {
         "PLUS is an AI-powered blockchain platform designed to transform corporate financial data into tokenized, verifiable, and tradable digital assets.",
       solution:
         "Built the landing website, product presentation, and B2B platform demo to communicate the product vision and structure the platform in a credible, execution-oriented way.",
-      stack: ["Python", "FastAPI", "Solidity", "Smart Contracts", "Data Pipelines", "AI Models", "Blockchain Infrastructure"],
+      stack: ["Python", "FastAPI", "Solidity", "Smart Contracts", "Data Pipelines", "AI Models", "Blockchain Architecture"],
       outcome:
         "A project that reflects technical leadership, product vision, and startup execution across software, data, and blockchain-oriented architecture.",
       cta: "Project Overview",
-      href: "https://github.com/domedtms/website-ddt",
+      href: "https://github.com/domedtms/",
     },
     {
       name: "Financial Data Reconciliation",
@@ -101,7 +112,7 @@ export default function DomePortfolioSite() {
     },
     {
       title: "Frontend",
-      items: ["React", "Tailwind CSS", "Next.js", "Component Design", "UI structuring"],
+      items: ["React", "Tailwind CSS", "Next.js", "ComponentDesign", "UI structuring"],
     },
     {
       title: "Backend & APIs",
@@ -109,11 +120,11 @@ export default function DomePortfolioSite() {
     },
     {
       title: "Tools & Platforms",
-      items: ["VS Code","GitHub", "Docker", "Vercel", "Hardhat", "Linear", "MongoDB"],
+      items: ["VS Code", "GitHub", "Docker", "Vercel", "Hardhat", "Linear"],
     },
     {
       title: "Technical Areas",
-      items: ["Software Engineering", "Web Development", "Project Building", "Blockchain Prototyping"],
+      items: ["Software Engineering", "Web Development", "Project building", "Blockchain Prototyping"],
     },
   ];
 
@@ -127,7 +138,7 @@ export default function DomePortfolioSite() {
     },
     {
       title: "CTO & Technical Lead",
-      place: "PLUS – Realistic Model Startup",
+      place: "PLUS – Realistic Model",
       period: "Sep 2025 — Present",
       description:
         "Leading the technical direction of PLUS - Realistic Model by defining product structure, shaping platform logic, and translating a complex vision into a credible execution path across software, data, AI, and blockchain-related components. My work includes technical positioning, architecture reasoning, roadmap definition, and the development of project assets such as the website, product presentation, and B2B demo.",
@@ -167,7 +178,7 @@ export default function DomePortfolioSite() {
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0a0f1a]/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <a href="#hero" className="text-sm font-semibold tracking-[0.2em] text-slate-200 uppercase">
+          <a href="#" className="text-sm font-semibold tracking-[0.2em] text-slate-200 uppercase">
             Domenico Di Tommaso
           </a>
 
@@ -200,9 +211,9 @@ export default function DomePortfolioSite() {
             <div className="absolute right-20 top-32 h-56 w-56 rounded-full bg-indigo-500/10 blur-3xl" />
           </div>
 
-          <div className="relative mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:px-8 lg:py-28">
+          <div className="relative mx-auto grid max-w-7xl gap-10 px-6 pt-8 pb-16 lg:grid-cols-[1.2fr_0.8fr] lg:px-8 lg:pt-10 lg:pb-20">
             <div className="max-w-3xl">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs tracking-[0.18em] text-slate-300 uppercase">
+              <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs tracking-[0.18em] text-slate-300 uppercase">
                 Software Engineering Student focused on real-world execution
               </div>
 
@@ -210,15 +221,15 @@ export default function DomePortfolioSite() {
                 Software Engineering student building real software systems and technical projects.
               </h1>
 
-              <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
+              <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
                 I am Domenico Di Tommaso, a Software Engineering student at Politecnico di Milano focused on software development, technical problem solving, and building credible projects that connect code, structure, and execution.
               </p>
 
-              <p className="mt-4 max-w-2xl text-base leading-8 text-slate-400">
+              <p className="mt-3 max-w-2xl text-base leading-7 text-slate-400">
                 My work sits at the intersection of software engineering, project building, and technical strategy - with interests across software systems, automation, AI-driven workflows, and startup-oriented execution.
               </p>
 
-              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
                   href="#projects"
                   className="inline-flex items-center justify-center rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:translate-y-[-1px] hover:bg-cyan-300"
@@ -234,19 +245,21 @@ export default function DomePortfolioSite() {
               </div>
             </div>
 
-            <div className="flex items-end">
-              <div className="w-full rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-cyan-950/20 backdrop-blur-xl">
+            <div className="flex items-start lg:pt-20">
+              <div className="w-full rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl shadow-cyan-950/10 backdrop-blur-xl">
                 <div className="flex items-center justify-between border-b border-white/10 pb-4">
                   <div>
                     <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Current Positioning</p>
-                    <p className="mt-2 text-lg font-semibold text-white">Technical Profile Overview</p>
+                    <p className="mt-2 text-lg font-semibold text-white">Technical Profile Overview
+
+</p>
                   </div>
                   <div className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">
                     Open to opportunities
                   </div>
                 </div>
 
-                <div className="mt-6 space-y-5">
+                <div className="mt-5 space-y-4">
                   <div>
                     <p className="text-sm text-slate-400">Primary Focus</p>
                     <p className="mt-1 text-base font-medium text-slate-100">
@@ -272,24 +285,27 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="about" className="border-t border-white/10">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-            <div className="grid gap-10 lg:grid-cols-[0.75fr_1.25fr] lg:gap-16">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+            <div className="grid gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:gap-12">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">About / Who I Am</p>
-                <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+                <div className="flex items-center gap-2">
+                  <User className="h-4 w-4 text-cyan-300" />
+                  <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">About / Who I Am</p>
+                </div>
+                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                   A technical profile shaped by structure, execution, and entrepreneurial thinking.
                 </h2>
               </div>
 
-              <div className="space-y-6 text-base leading-8 text-slate-300">
+              <div className="space-y-5 text-base leading-7 text-slate-300">
                 <p>
-                  I’m interested in building technologies that do more than function technically — they should also create clarity, solve relevant problems, and generate real value in concrete contexts.
+                  I am a Computer Engineering student with a strong interest in software systems, practical execution, and the process of turning technical ideas into structured, credible projects.
                 </p>
                 <p>
-                  That is why I’m particularly drawn to environments where engineering and entrepreneurship meet: places where software is not only developed correctly, but also shaped with direction, purpose, and long-term potential in mind.
+                  I enjoy working where engineering meets direction: understanding how a system should be designed, how it should evolve, and how to make it useful in a real context.
                 </p>
                 <p>
-                  What defines the way I work is structure first. I tend to approach projects by clarifying the roadmap, setting priorities, and turning ideas into execution paths that are credible, organized, and technically grounded.
+                  What distinguishes me is not only the interest in writing code, but the habit of approaching projects with structure first: roadmap, priorities, implementation path, and long-term direction. I care about clarity, substance, and building with method.
                 </p>
               </div>
             </div>
@@ -297,22 +313,25 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="what-i-do" className="border-t border-white/10 bg-white/[0.02]">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
             <div className="max-w-3xl">
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">What I Do</p>
-              <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              <div className="flex items-center gap-2">
+                <Wrench className="h-4 w-4 text-cyan-300" />
+                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">What I Do</p>
+              </div>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                 I work across development, project structure, and technical reasoning.
               </h2>
             </div>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
               {pillars.map((item) => (
                 <article
                   key={item.title}
                   className="rounded-3xl border border-white/10 bg-[#0f1728] p-7 transition hover:-translate-y-1 hover:border-cyan-300/30"
                 >
                   <h3 className="text-xl font-semibold text-white">{item.title}</h3>
-                  <p className="mt-4 text-sm leading-7 text-slate-300">{item.description}</p>
+                  <p className="mt-3 text-sm leading-6 text-slate-300">{item.description}</p>
                 </article>
               ))}
             </div>
@@ -320,11 +339,14 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="projects" className="border-t border-white/10">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div className="max-w-3xl">
-                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Projects / Portfolio</p>
-                <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+                <div className="flex items-center gap-2">
+                  <FolderKanban className="h-4 w-4 text-cyan-300" />
+                  <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Projects / Portfolio</p>
+                </div>
+                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                   Selected projects that show how I think, build, and execute.
                 </h2>
               </div>
@@ -333,7 +355,7 @@ export default function DomePortfolioSite() {
               </p>
             </div>
 
-            <div className="mt-12 grid gap-6 xl:grid-cols-3">
+            <div className="mt-8 grid gap-6 xl:grid-cols-3">
               {projects.map((project) => (
                 <article
                   key={project.name}
@@ -341,7 +363,7 @@ export default function DomePortfolioSite() {
                 >
                   <h3 className="text-xl font-semibold text-white">{project.name}</h3>
 
-                  <div className="mt-6 space-y-4 text-sm leading-7 text-slate-300">
+                  <div className="mt-5 space-y-4 text-sm leading-6 text-slate-300">
                     <div>
                       <p className="font-medium text-slate-100">Problem</p>
                       <p>{project.problem}</p>
@@ -360,14 +382,14 @@ export default function DomePortfolioSite() {
                     {project.stack.map((tech) => (
                       <span
                         key={tech}
-                        className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300"
+                        className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-slate-300"
                       >
                         {tech}
                       </span>
                     ))}
                   </div>
 
-                  <div className="mt-8 pt-2">
+                  <div className="mt-6 pt-1">
                     <a
                       href={project.href}
                       className="inline-flex items-center text-sm font-semibold text-cyan-300 transition hover:text-cyan-200"
@@ -382,19 +404,22 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="skills" className="border-t border-white/10 bg-white/[0.02]">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
             <div className="max-w-3xl">
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Skills / Tech Stack</p>
-              <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              <div className="flex items-center gap-2">
+                <Code2 className="h-4 w-4 text-cyan-300" />
+                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Skills / Tech Stack</p>
+              </div>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                 Structured technical competencies, not a random list of tools.
               </h2>
             </div>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
               {skillGroups.map((group) => (
                 <article key={group.title} className="rounded-3xl border border-white/10 bg-[#0f1728] p-7">
                   <h3 className="text-lg font-semibold text-white">{group.title}</h3>
-                  <div className="mt-5 flex flex-wrap gap-2">
+                  <div className="mt-4 flex flex-wrap gap-2">
                     {group.items.map((item) => (
                       <span
                         key={item}
@@ -411,20 +436,26 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="certifications" className="border-t border-white/10">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
             <div className="max-w-3xl">
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Certifications</p>
-              <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              <div className="flex items-center gap-2">
+                <Award className="h-4 w-4 text-cyan-300" />
+                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Certifications</p>
+              </div>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                 Certifications that strengthen my technical foundation and professional profile.
               </h2>
+              <p className="mt-4 text-base leading-8 text-slate-300">
+                This section highlights certifications that support my learning path and validate specific technical skills.
+              </p>
             </div>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
               {certifications.map((item) => (
                 <article key={item.name} className="rounded-3xl border border-white/10 bg-[#0f1728] p-7">
                   <p className="text-xs uppercase tracking-[0.18em] text-cyan-300">{item.issuer}</p>
                   <h3 className="mt-3 text-xl font-semibold text-white">{item.name}</h3>
-                  <p className="mt-2 text-sm text-slate-400">{item.year}</p>
+                  <p className="mt-1.5 text-sm text-slate-400">{item.year}</p>
                   <p className="mt-4 text-sm leading-7 text-slate-300">{item.note}</p>
                 </article>
               ))}
@@ -433,15 +464,18 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="experience" className="border-t border-white/10">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
             <div className="max-w-3xl">
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Experience</p>
-              <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              <div className="flex items-center gap-2">
+                <BriefcaseBusiness className="h-4 w-4 text-cyan-300" />
+                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Experience</p>
+              </div>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                 Professional exposure grounded in financial systems and technical execution.
               </h2>
             </div>
 
-            <div className="mt-12 space-y-6">
+            <div className="mt-8 space-y-5">
               {experience.map((item) => (
                 <article key={item.title} className="rounded-3xl border border-white/10 bg-[#0f1728] p-7">
                   <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
@@ -451,7 +485,7 @@ export default function DomePortfolioSite() {
                     </div>
                     <p className="text-sm text-slate-400">{item.period}</p>
                   </div>
-                  <p className="mt-5 max-w-4xl text-sm leading-7 text-slate-300">{item.description}</p>
+                  <p className="mt-4 max-w-4xl text-sm leading-6 text-slate-300">{item.description}</p>
                 </article>
               ))}
             </div>
@@ -459,15 +493,18 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="education" className="border-t border-white/10 bg-white/[0.02]">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
             <div className="max-w-3xl">
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Education</p>
-              <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              <div className="flex items-center gap-2">
+                <GraduationCap className="h-4 w-4 text-cyan-300" />
+                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Education</p>
+              </div>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                 Academic foundation shaped by engineering rigor and software-oriented thinking.
               </h2>
             </div>
 
-            <div className="mt-12 space-y-6">
+            <div className="mt-8 space-y-5">
               {education.map((item) => (
                 <article key={item.title} className="rounded-3xl border border-white/10 bg-[#0f1728] p-7">
                   <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
@@ -477,7 +514,7 @@ export default function DomePortfolioSite() {
                     </div>
                     <p className="text-sm text-slate-400">{item.period}</p>
                   </div>
-                  <p className="mt-5 max-w-4xl text-sm leading-7 text-slate-300">{item.description}</p>
+                  <p className="mt-4 max-w-4xl text-sm leading-6 text-slate-300">{item.description}</p>
                 </article>
               ))}
             </div>
@@ -485,19 +522,22 @@ export default function DomePortfolioSite() {
         </section>
 
         <section id="contact" className="border-t border-white/10">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-            <div className="rounded-[2rem] border border-cyan-300/20 bg-gradient-to-br from-cyan-400/10 via-white/[0.04] to-indigo-500/10 p-8 sm:p-10 lg:p-12">
+          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+            <div className="rounded-[2rem] border border-cyan-300/20 bg-gradient-to-br from-cyan-400/10 via-white/[0.04] to-indigo-500/10 p-7 sm:p-8 lg:p-10">
               <div className="max-w-3xl">
-                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Contact</p>
-                <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+                <div className="flex items-center gap-2">
+                  <Mail className="h-4 w-4 text-cyan-300" />
+                  <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">Contact</p>
+                </div>
+                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
                   Let&apos;s connect if you are building something serious, technical, or worth solving.
                 </h2>
-                <p className="mt-6 text-base leading-8 text-slate-300">
+                <p className="mt-4 text-base leading-7 text-slate-300">
                   Open to junior software engineering opportunities, selected freelance work, and technical collaborations.
                 </p>
               </div>
 
-              <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                 <a
                   href="mailto:domeditommaso2004@gmail.com"
                   className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:bg-white/10"
