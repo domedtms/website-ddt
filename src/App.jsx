@@ -560,11 +560,13 @@ export default function DomePortfolioSite() {
                   <p className="mt-3 text-sm font-medium text-white">Code & Projects</p>
                 </a>
                 <a
-                  href="#"
+                  href="/Domenico-Di-Tommaso-CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:bg-white/10"
                 >
                   <p className="text-xs uppercase tracking-[0.18em] text-slate-400">CV</p>
-                  <p className="mt-3 text-sm font-medium text-white">CV available on request</p>
+                  <p className="mt-3 text-sm font-medium text-white">Download CV</p>
                 </a>
               </div>
             </div>
