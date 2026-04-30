@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#0A0F1A"/>
+
+  <!-- Full monogram D -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M18 14H31.5C43.8 14 51 21.1 51 32C51 42.9 43.8 50 31.5 50H18V14ZM26 22V42H30.5C38.2 42 43 38.1 43 32C43 25.9 38.2 22 30.5 22H26Z"
+    fill="#67E8F9"
+  />
+
+  <!-- Luxury slash -->
+  <path
+    d="M30 19L40 45"
+    stroke="#67E8F9"
+    stroke-width="4.8"
+    stroke-linecap="round"
+  />
+</svg>
